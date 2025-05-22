@@ -2,33 +2,33 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Rejoana Orin Orna | Portfolio</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-    <!-- Navigation Bar -->
-    <nav class="navbar">
+
+  <!-- Navigation Bar -->
+  <nav class="navbar">
     <div class="container nav-container">
-        <div class="logo">Rejoana Orin Orna</div>
-        <input type="checkbox" id="menu-toggle" />
-        <label for="menu-toggle" class="menu-icon">&#9776;</label>
-        <ul class="nav-links">
+      <div class="logo">Orna</div>
+      <input type="checkbox" id="menu-toggle" />
+      <label for="menu-toggle" class="menu-icon">&#9776;</label>
+      <ul class="nav-links">
         <li><a href="#hero">Home</a></li>
         <li><a href="#about">About</a></li>
         <li><a href="#education">Education</a></li>
         <li><a href="#skills">Skills</a></li>
         <li><a href="#projects">Projects</a></li>
         <li><a href="#contact">Contact</a></li>
-        </ul>
+      </ul>
     </div>
-    </nav>
-
+  </nav>
 
   <!-- Hero Section -->
-  <header class="hero">
-    <div class="container">
-      <img src="onra p.jpeg" alt="Orna's photo" class="profile-img" />
+  <header class="hero" id="hero">
+    <div class="container hero-container">
+      <img src="your-photo.jpg" alt="Orna's photo" class="profile-img" />
       <div class="hero-text">
         <h1>Hi, I'm Orna</h1>
         <p>Aspiring Software Engineer | Passionate About Building Smart, Practical Solutions</p>
@@ -36,26 +36,26 @@
     </div>
   </header>
 
-  <!-- About -->
-  <section class="section about">
+  <!-- About Section -->
+  <section class="section about" id="about">
     <div class="container">
       <h2>About</h2>
       <p>
-        I'm Rejoana Orin Orna, a passionate Computer Science & Engineering student at the University of Global Village. I enjoy solving real-world problems through software, and I’ve already worked on several exciting projects in areas like management systems and AI. I’m always eager to learn new technologies, build practical solutions, and collaborate with others to create meaningful digital experiences.
+        I'm Rejoana Orin Orna, a passionate Computer Science & Engineering student at the University of Global Village, expected to graduate in 2026. I enjoy solving real-world problems through software, and I’ve already worked on several exciting projects in areas like management systems and AI. I’m always eager to learn new technologies, build practical solutions, and collaborate with others to create meaningful digital experiences.
       </p>
     </div>
   </section>
 
-  <!-- Education -->
-  <section class="section education">
+  <!-- Education Section -->
+  <section class="section education" id="education">
     <div class="container">
       <h2>Education</h2>
       <p><strong>B.Sc. in Computer Science & Engineering</strong><br />University of Global Village<br />Expected Graduation: 2026</p>
     </div>
   </section>
 
-  <!-- Skills -->
-  <section class="section skills">
+  <!-- Skills Section -->
+  <section class="section skills" id="skills">
     <div class="container">
       <h2>Skills</h2>
       <ul>
@@ -68,8 +68,8 @@
     </div>
   </section>
 
-  <!-- Projects -->
-  <section class="section projects">
+  <!-- Projects Section -->
+  <section class="section projects" id="projects">
     <div class="container">
       <h2>Projects</h2>
       <ul>
@@ -81,28 +81,30 @@
     </div>
   </section>
 
-  <!-- Contact -->
-  <section class="section contact">
+  <!-- Contact Section -->
+  <section class="section contact" id="contact">
     <div class="container">
       <h2>Contact Me</h2>
-      <form>
-        <input type="text" placeholder="Your Name" required />
-        <input type="email" placeholder="Your Email" required />
-        <textarea placeholder="Your Message" required></textarea>
-        <button type="submit">Send Message</button>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
       </form>
+      <div class="social-links">
+        <p>Connect with me:</p>
+        <a href="https://www.facebook.com/alifa.ahmed.73157" target="_blank">Facebook</a> |
+        <a href="#" id="github-link">GitHub</a> |
+        <a href="#" id="linkedin-link">LinkedIn</a> |
+        <a href="mailto:Ornaahmed650@gmail.com">Email</a>
+      </div>
     </div>
   </section>
 
   <!-- Footer -->
   <footer>
     <div class="container">
-      <p>Connect with me:</p>
-      <a href="https://www.facebook.com/alifa.ahmed.73157" target="_blank">Facebook</a> |
-      <a href="#" id="github-link">GitHub</a> |
-      <a href="#" id="linkedin-link">LinkedIn</a> |
-      <a href="mailto:Ornaahmed650@gmail.com">Email</a>
-
+      <p>&copy; 2025 Rejoana Orin Orna. All rights reserved.</p>
     </div>
   </footer>
 
