@@ -12,7 +12,7 @@ body {
 }
 
 .hero {
-  background: linear-gradient(45deg, #f85032, #e73827);
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
   padding: 2rem 0;
 }
@@ -44,7 +44,7 @@ body {
 .section h2 {
   font-size: 1.8rem;
   margin-bottom: 1rem;
-  color: #e73827;
+  color:linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .skills ul,
@@ -72,7 +72,7 @@ body {
 }
 
 .contact button {
-  background: #e73827;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
   color: white;
   padding: 0.75rem;
   border: none;
@@ -82,7 +82,7 @@ body {
 }
 
 .contact button:hover {
-  background: #c92c1e;
+  background:linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 footer {
@@ -93,7 +93,7 @@ footer {
 }
 
 footer a {
-  color: #ff7262;
+  color:linear-gradient(to right, #0f2027, #203a43, #2c5364);
   text-decoration: none;
   margin: 0 0.5rem;
 }
@@ -116,7 +116,7 @@ footer a {
 .logo {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #e73827;
+  color:linear-gradient(to right, #0f2027, #203a43, #2c5364);
 }
 
 .nav-links {
